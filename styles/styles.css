@@ -5,6 +5,7 @@ body {
 
 .container {
 	background-color: mistyrose;
+	width: 350px;
 	/*background-color: #191970;*/
 	padding: 1em;
 	border: 3px solid #191970;
@@ -14,6 +15,12 @@ body {
 	background-color: white;
 	padding: 1em;
 	text-align: center;
+	border: 3px;
+}
+
+.textContainer {
+	border: 1px solid #191970;
+	padding: 3px;
 }
 
 .fact {
@@ -22,19 +29,23 @@ body {
 	font-weight: normal;
 }
 
-.items {
+li {
+	list-style-type: none;
+}
+
+.info {
 	font-weight: bold;
 	font-color: white;
-	list-style-type: none;
 }
 
 img {
 	padding: 1px;
 	border: 1px solid black;
-	box-shadow: 10px 10px;
+	box-shadow: 5px 5px;
 	background-color: slategrey;
 }
 
 h3 {
 	text-align: center;
+	border: 1px solid #191970;
 }
